@@ -1,11 +1,11 @@
 import React from 'react'
 import { Box, Heading, Text, Flex } from "@chakra-ui/react";
-function Blde() {
+function Blog() {
   return (
     <Box padding="100px"  width="85vw" height="95vh" m="20px" border='1px' borderRadius='10px' borderColor='blue.800'>
       <Flex flexDirection="column" gap="15px" justify="centre">
         <Box>
-          <Heading color='blue' >BLDE PAGE</Heading>
+          <Heading color='blue' >BLOG PAGE</Heading>
         </Box>
         <Box>
           <Text>
@@ -31,4 +31,4 @@ function Blde() {
   )
 }
 
-export default Blde
+export default Blog
