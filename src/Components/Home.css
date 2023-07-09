@@ -1,0 +1,17 @@
+.homecontainer{
+    background-image: url("https://th.bing.com/th/id/OIP.2sX97v5kQ3eBwySZNSVzuwHaEo?w=271&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+}
+.OnOverPart{
+   display: none; 
+}
+.main:hover .OnOverPart{
+    display: block;
+    padding: 20px;
+}
+/* .main{
+    border: 1px solid red;
+} */
+.main img{
+    margin: auto;
+    padding:20px;
+}
